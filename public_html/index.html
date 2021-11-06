@@ -32,7 +32,7 @@
         </div>
         <header class="header">
             <div class="img-wrapper">
-                <img src="Images/i01_background_temp.png">
+                <img src="Images/i01_background_temp.png" style="width:100%;">
             </div>
             <div class="banner">
                 <h1>COMING SOON</h1>
@@ -69,3 +69,21 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+<style>
+    .left, .right {
+      float: left;
+      width: 20%;
+    }
+    
+    .main {
+      float: left;
+      width: 60%;
+    }
+    
+    @media screen and (max-width: 800px) {
+      .left, .main, .right {
+        width: 100%;
+      }
+    }
+    </style>
