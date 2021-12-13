@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+#text {
+  color: red;
+  background-color: yellow;
+  font-size: 40px;
+}
+
+button {
+  font-size: 37px;
+}
+
+#title {
+  font-size: 45px;
+  font-family: sans-serif, "Poppins";
+  color: red;
+}
+
+span {
+  font-family: sans-serif;
+  color: blue;
+}
+
+#castor_img {
+  display: block;
+  margin-left: auto;
+  width: 25%;
+}
+
+#informatii {
+   font-family: sans-serif;
+}
